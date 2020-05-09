@@ -21,7 +21,7 @@ const ProductProvider = ({children}) => {
       return () => {
 
       }
-    }); 
+    }, []); 
 
   return (
     <ProductContext.Provider value={{loading, products, featured}}>
