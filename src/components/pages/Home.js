@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../ui/molecules/Hero'
 import {Link}  from 'react-router-dom'
+import FeaturedProducts from '../ui/organisms/Products/FeaturedProducts'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
           our products
         </Link>
       </Hero>
+      <FeaturedProducts />
     </>
   )
 }
