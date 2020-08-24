@@ -12,5 +12,4 @@ const FeaturedProducts = ()=> {
   return <ProductList title="featured products"  products={featured}/>
   
 }
-
-export default FeaturedProducts
+export default FeaturedProducts;

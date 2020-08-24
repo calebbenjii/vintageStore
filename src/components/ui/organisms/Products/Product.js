@@ -1,5 +1,6 @@
 import React from 'react'; 
 import {Link} from 'react-router-dom'
+// import ButtonBtn from '../../molecules/Button'
 
 const Product = ({id, image, title, price}) => {
   let url = image.url
@@ -12,6 +13,7 @@ const Product = ({id, image, title, price}) => {
       <div className="product-footer">
         <p className="product-title" >{title}</p>
         <p className="product-price" >${price}</p>
+        {/* <ButtonBtn titleBtn="Buy Now!!" /> */}
       </div>
     </article>
   )
